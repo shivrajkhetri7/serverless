@@ -1,0 +1,19 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "\"this is serverless application \"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivrajkhetri7"
+  },
+  "keywords": [
+    "sls",
+    "offline"
+  ],
+  "author": "Shivraj Khetri",
+  "license": "ISC"
+}

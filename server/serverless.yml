@@ -1,0 +1,25 @@
+service: server
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+plugins:
+  - serverless-offline
+
+functions:
+  function1:                        
+    handler: index.handler
+  
+  getUserDetails:
+    handler : User/index.handler
+    environment:
+            MONGO_URL : ""
+    events : 
+      - httpApi:
+          path: /user
+          method: get
+
+    
+

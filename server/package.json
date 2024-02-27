@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "\"this is server code \"",
+  "main": "index.js",
+  "scripts": {
+    "test": "sls invoke local -f function1",
+    "serverless-dev" : "sls offline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivrajkhetri7"
+  },
+  "keywords": [
+    "sls",
+    "offline"
+  ],
+  "author": "shivraj",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^13.3.3"
+  }
+}
